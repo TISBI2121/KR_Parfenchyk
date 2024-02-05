@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2d254e4cb4bd4b6ca7ff5af531b479c1" Name="Diagram1">
+        <EntityTypeShape EntityType="KR2_ParfenchykModel.Customer" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KR2_ParfenchykModel.Departament" Width="1.5" PointX="0.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="KR2_ParfenchykModel.Order" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="KR2_ParfenchykModel.OrderUser" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KR2_ParfenchykModel.Platform" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KR2_ParfenchykModel.Product" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KR2_ParfenchykModel.Role" Width="1.5" PointX="0.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KR2_ParfenchykModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KR2_ParfenchykModel.User" Width="1.5" PointX="3" PointY="10.875" IsExpanded="true" />
+        <AssociationConnector Association="KR2_ParfenchykModel.FK_Order_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="KR2_ParfenchykModel.FK_User_Departament" ManuallyRouted="false" />
+        <AssociationConnector Association="KR2_ParfenchykModel.FK_Order_Platform" ManuallyRouted="false" />
+        <AssociationConnector Association="KR2_ParfenchykModel.FK_Order_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="KR2_ParfenchykModel.FK_OrderUser_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="KR2_ParfenchykModel.FK_OrderUser_User" ManuallyRouted="false" />
+        <AssociationConnector Association="KR2_ParfenchykModel.FK_User_Role" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
